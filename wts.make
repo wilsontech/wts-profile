@@ -11,12 +11,19 @@ projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
 projects[admin_menu][download][branch] = 7.x-3.x
 
+projects[admin_views][type] = module
+projects[admin_views][subdir] = contrib
+projects[admin_views][version] = 1.2
+
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.1
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
 projects[ctools][download][branch] = 7.x-1.x
+
+projects[date][subdir] = contrib
+projects[date][version] = 2.6
 
 projects[devel][type] = module
 projects[devel][subdir] = contrib
@@ -25,6 +32,9 @@ projects[devel][download][type] = git
 projects[devel][download][url] = http://git.drupal.org/project/devel.git
 projects[devel][download][branch] = 7.x-1.x
 
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.1
+
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
@@ -32,12 +42,12 @@ projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
 
-projects[omega_tools][type] = module
-projects[omega_tools][subdir] = contrib
-projects[omega_tools][version] = 3.0-rc4
-projects[omega_tools][download][type] = git
-projects[omega_tools][download][url] = http://git.drupal.org/project/omega_tools.git
-projects[omega_tools][download][branch] = 7.x-3.x
+;projects[omega_tools][type] = module
+;projects[omega_tools][subdir] = contrib
+;projects[omega_tools][version] = 3.0-rc4
+;projects[omega_tools][download][type] = git
+;projects[omega_tools][download][url] = http://git.drupal.org/project/omega_tools.git
+;projects[omega_tools][download][branch] = 7.x-3.x
 
 ; projects[toolbar_admin_menu][type] = module
 ; projects[toolbar_admin_menu][subdir] = contrib
@@ -55,10 +65,10 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 
 ; Themes =======================================================================
 projects[omega][type] = theme
-projects[omega][version] = 3.1
+projects[omega][version] = 4.0-beta6
 projects[omega][download][type] = git
 projects[omega][download][url] = http://git.drupal.org/project/omega.git
-projects[omega][download][branch] = 7.x-3.x
+projects[omega][download][branch] = 7.x-4.x
 
 ; Libraries ====================================================================
 ; libraries[tinymce][download][type] = git
