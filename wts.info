@@ -1,0 +1,22 @@
+name = WTS Install profile
+description = A demonstration installation profile.
+core = 7.x
+
+; Core modules
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = php
+dependencies[] = taxonomy
+
+; Contributed modules
+dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = libraries
+dependencies[] = omega_tools
+dependencies[] = wysiwyg
