@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7"
+projects[drupal][version] = "7.23"
 
 ; Dependencies =================================================================
 projects[admin_menu][type] = module
