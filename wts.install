@@ -165,7 +165,8 @@ function wts_install() {
 
   $record = array(
     'format' => 'filtered_html',
-    'editor' => 'tinymce',
+    // 'editor' => 'tinymce',
+    'editor' => 'ckeditor',
     'settings' => $tinymce_settings,
   );
 

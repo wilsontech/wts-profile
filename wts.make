@@ -106,3 +106,7 @@ libraries[tinymce][download][url] = https://github.com/tinymce/tinymce.git
 ;libraries[tinymce][download][type] = get
 ;libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.6.zip
 ;libraries[tinymce][download][branch] = 3.4.x
+
+libraries[ckeditor][type] = library
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][downlaod][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_full.zip
