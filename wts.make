@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.23"
+projects[drupal][version] = "7"
 
 ; Dependencies =================================================================
 projects[admin_menu][type] = module
@@ -14,6 +14,10 @@ projects[admin_menu][download][branch] = 7.x-3.x
 projects[admin_views][type] = module
 projects[admin_views][subdir] = contrib
 projects[admin_views][version] = 1.2
+
+projects[advanced_help][type] = module
+projects[advanced_help][subdir] = contrib
+projects[advanced_help][version] = 1.2
 
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
@@ -35,12 +39,18 @@ projects[devel][download][branch] = 7.x-1.x
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.1
 
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.0
+
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
+
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.8
 
 ;projects[omega_tools][type] = module
 ;projects[omega_tools][subdir] = contrib
@@ -49,12 +59,22 @@ projects[libraries][download][branch] = 7.x-2.x
 ;projects[omega_tools][download][url] = http://git.drupal.org/project/omega_tools.git
 ;projects[omega_tools][download][branch] = 7.x-3.x
 
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.2
+
+projects[token][subdir] = contrib
+projects[token][version] = 1.2
+
 ; projects[toolbar_admin_menu][type] = module
 ; projects[toolbar_admin_menu][subdir] = contrib
 ; projects[toolbar_admin_menu][version] = 1.0
 ; projects[toolbar_admin_menu][download][type] = git
 ; projects[toolbar_admin_menu][download][url] = http://git.drupalcode.org/project/toolbar_admin_menu.git
 ; projects[toolbar_admin_menu][download][branch] = 7.x-1.x
+
+projects[views_bulk_operations][type] = module
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.1
 
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib

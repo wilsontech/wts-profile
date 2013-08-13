@@ -15,8 +15,17 @@ dependencies[] = taxonomy
 
 ; Contributed modules
 dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = advanced_help
 dependencies[] = ctools
+dependencies[] = date
 dependencies[] = devel
+dependencies[] = entity
+dependencies[] = entityreference
+;dependencies[] = imce
+;dependencies[] = imce_wysiwyg
 dependencies[] = libraries
-dependencies[] = omega_tools
+;dependencies[] = omega_tools
+dependencies[] = pathauto
+dependencies[] = token
 dependencies[] = wysiwyg
