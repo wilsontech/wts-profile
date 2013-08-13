@@ -6,7 +6,7 @@ projects[drupal][version] = "7"
 ; Dependencies =================================================================
 projects[admin_menu][type] = module
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
 projects[admin_menu][download][branch] = 7.x-3.x
@@ -21,7 +21,7 @@ projects[advanced_help][version] = 1.2
 
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.1
+projects[ctools][version] = 1.3
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
 projects[ctools][download][branch] = 7.x-1.x
@@ -44,7 +44,7 @@ projects[entityreference][version] = 1.0
 
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.1
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
@@ -66,7 +66,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 1.2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.2
+projects[token][version] = 1.5
 
 ; projects[toolbar_admin_menu][type] = module
 ; projects[toolbar_admin_menu][subdir] = contrib
