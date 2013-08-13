@@ -62,6 +62,9 @@ projects[module_filter][version] = 1.8
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 1.2
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.2
 
@@ -76,12 +79,18 @@ projects[views_bulk_operations][type] = module
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
+projects[webform][subdir] = contrib
+projects[webform][version] = 1.2
+
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][url] = http://git.drupal.org/project/wysiwyg.git
 projects[wysiwyg][download][branch] = 7.x-2.x
+
+projects[xmlsitemap][subdir] = contrib
+projects[xmlsitemap][version] = 1.2
 
 ; Themes =======================================================================
 projects[omega][type] = theme
