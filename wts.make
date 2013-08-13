@@ -100,9 +100,10 @@ projects[omega][download][url] = http://git.drupal.org/project/omega.git
 projects[omega][download][branch] = 7.x-4.x
 
 ; Libraries ====================================================================
-; libraries[tinymce][download][type] = git
-; libraries[tinymce][download][url] = https://github.com/tinymce/tinymce.git
 libraries[tinymce][type] = library
-libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.6.zip
-libraries[tinymce][download][branch] = 3.4.x
+libraries[tinymce][download][type] = git
+libraries[tinymce][download][url] = https://github.com/tinymce/tinymce.git
+libraries[tinymce][download][branch] = 4.x
+;libraries[tinymce][download][type] = get
+;libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.6.zip
+;libraries[tinymce][download][branch] = 3.4.x
