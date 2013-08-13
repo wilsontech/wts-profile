@@ -26,6 +26,7 @@ dependencies[] = entityreference
 ;dependencies[] = imce
 ;dependencies[] = imce_wysiwyg
 dependencies[] = libraries
+dependencies[] = media
 dependencies[] = module_filter
 ;dependencies[] = omega_tools
 dependencies[] = pathauto

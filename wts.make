@@ -49,6 +49,9 @@ projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
 
+projects[media][subdir] = contrib
+projects[media][version] = 2.0-alpha1
+
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
