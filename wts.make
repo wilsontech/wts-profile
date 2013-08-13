@@ -75,6 +75,10 @@ projects[token][version] = 1.5
 ; projects[toolbar_admin_menu][download][url] = http://git.drupalcode.org/project/toolbar_admin_menu.git
 ; projects[toolbar_admin_menu][download][branch] = 7.x-1.x
 
+projects[views][type] = module
+projects[views][subdir] = contrib
+projects[views][version] = 3.7
+
 projects[views_bulk_operations][type] = module
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -84,7 +88,7 @@ projects[webform][version] = 1.2
 
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][url] = http://git.drupal.org/project/wysiwyg.git
 projects[wysiwyg][download][branch] = 7.x-2.x
