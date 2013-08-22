@@ -37,7 +37,7 @@ projects[devel][download][url] = http://git.drupal.org/project/devel.git
 projects[devel][download][branch] = 7.x-1.x
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.1
+projects[entity][version] = 1.2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
