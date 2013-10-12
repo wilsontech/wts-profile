@@ -14,6 +14,7 @@ dependencies[] = php
 dependencies[] = taxonomy
 
 ; Contributed modules
+dependencies[] = addanother
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
@@ -26,6 +27,7 @@ dependencies[] = entityreference
 ;dependencies[] = imce
 ;dependencies[] = imce_wysiwyg
 dependencies[] = libraries
+dependencies[] = logintoboggan
 dependencies[] = media
 dependencies[] = module_filter
 ;dependencies[] = omega_tools
