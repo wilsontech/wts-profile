@@ -11,6 +11,10 @@ projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
 projects[admin_menu][download][branch] = 7.x-3.x
 
+projects[addanother][type] = module
+projects[addanother][subdir] = contrib
+projects[addanother][version] = 7.x-2.1
+
 projects[admin_views][type] = module
 projects[admin_views][subdir] = contrib
 projects[admin_views][version] = 1.2
@@ -51,6 +55,10 @@ projects[libraries][version] = 2.1
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][branch] = 7.x-2.x
+
+projects[logintoboggan][type] = module
+projects[logintoboggan][subdir] = contrib
+projects[logintoboggan][version] = 7.x-1.3
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-alpha1
