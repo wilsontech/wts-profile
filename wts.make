@@ -42,6 +42,9 @@ projects[entity][version] = 1.2
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
 
+projects[features][subdir] = contrib
+projects[features][version] = 7.x-2.x
+
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -88,6 +91,12 @@ projects[views_bulk_operations][version] = 3.1
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 1.2
+
+projects[workbench][subdir] = contrib
+projects[workbench][version] = 7.x-1.2
+
+projects[workbench_moderation][subdir] = contrib
+projects[workbench_moderation][version] = 7.x-1.3
 
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib
