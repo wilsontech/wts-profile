@@ -6,14 +6,14 @@ projects[drupal][version] = "7"
 ; Dependencies =================================================================
 projects[admin_menu][type] = module
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0
 projects[admin_menu][download][type] = git
 projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
 projects[admin_menu][download][branch] = 7.x-3.x
 
 projects[addanother][type] = module
 projects[addanother][subdir] = contrib
-projects[addanother][version] = 7.x-2.1
+projects[addanother][version] = 2.1
 
 projects[admin_views][type] = module
 projects[admin_views][subdir] = contrib
@@ -21,7 +21,7 @@ projects[admin_views][version] = 1.2
 
 projects[advanced_help][type] = module
 projects[advanced_help][subdir] = contrib
-projects[advanced_help][version] = 1.2
+projects[advanced_help][version] = 1.1
 
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
@@ -47,7 +47,7 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
 
 projects[features][subdir] = contrib
-projects[features][version] = 7.x-2.x
+projects[features][version] = 2.x
 
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
@@ -58,7 +58,7 @@ projects[libraries][download][branch] = 7.x-2.x
 
 projects[logintoboggan][type] = module
 projects[logintoboggan][subdir] = contrib
-projects[logintoboggan][version] = 7.x-1.3
+projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-alpha1
@@ -77,7 +77,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 1.2
+projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
@@ -98,13 +98,13 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 1.2
+projects[webform][version] = 3.19
 
 projects[workbench][subdir] = contrib
-projects[workbench][version] = 7.x-1.2
+projects[workbench][version] = 1.2
 
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 7.x-1.3
+projects[workbench_moderation][version] = 1.3
 
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib
