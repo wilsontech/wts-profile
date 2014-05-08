@@ -17,6 +17,12 @@ drush make distro.make drupal.local
 This will download Drupal 7 core, plus additional modules per the profile make file (wts.make).
 
 Setup Apache site for drupal.local and a MySQL database (instructions?).
+Apache:
+MySQL:
+sudo mysqladmin create dbshortname
+mysql mysql
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, LOCK TABLES, CREATE TEMPORARY TABLES ON `databasename`.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+
 
 Run install script and choose WTS Profile. Modules listed in wts.info as dependencies are enabled automatically.
 You will need to create settings.php and files directory and make them writeable by web server. Eg.

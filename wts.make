@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7"
+projects[drupal][version] = "7.28"
 
 ; Dependencies =================================================================
 projects[admin_menu][type] = module
@@ -25,7 +25,7 @@ projects[advanced_help][version] = 1.1
 
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
 projects[ctools][download][branch] = 7.x-1.x
@@ -41,10 +41,10 @@ projects[devel][download][url] = http://git.drupal.org/project/devel.git
 projects[devel][download][branch] = 7.x-1.x
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0
+projects[entityreference][version] = 1.1
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.x
@@ -61,7 +61,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-alpha1
+projects[media][version] = 2.0-alpha3
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
@@ -135,3 +135,4 @@ libraries[ckeditor][type] = library
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_full.zip
 libraries[ckeditor][download][branch] = 4.2
+; destination ?
