@@ -35,10 +35,10 @@ projects[date][version] = 2.6
 
 projects[devel][type] = module
 projects[devel][subdir] = contrib
-projects[devel][version] = 1.3
-projects[devel][download][type] = git
-projects[devel][download][url] = http://git.drupal.org/project/devel.git
-projects[devel][download][branch] = 7.x-1.x
+projects[devel][version] = 1.5
+;projects[devel][download][type] = git
+;projects[devel][download][url] = http://git.drupal.org/project/devel.git
+;projects[devel][download][branch] = 7.x-1.x
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
@@ -48,6 +48,9 @@ projects[entityreference][version] = 1.1
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.x
+
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.x
 
 projects[libraries][type] = module
 projects[libraries][subdir] = contrib
@@ -98,7 +101,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
