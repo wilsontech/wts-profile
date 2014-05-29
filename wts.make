@@ -66,6 +66,9 @@ projects[logintoboggan][version] = 1.3
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-alpha3
 
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.x
+
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
